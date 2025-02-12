@@ -2,6 +2,7 @@
 
 ## Description
 This project implements task-specific embedding adaptation using Constrastive Learning. It allows for a label-aware dimensionality reduction in binary classification tasks which helps increase performance in the downstream task.
+This is the implementation of the method discussed in the paper [Efficient Domain Adaptation of Multimodal Embeddings using Constrastive Learning](https://arxiv.org/abs/2502.02048).
 
 ## File Structure
 
@@ -28,3 +29,19 @@ This project implements task-specific embedding adaptation using Constrastive Le
     ```bash
     python contrastive_projector.py
     ```
+
+
+## Citation
+If you use this repository, please cite the following repository:
+
+```
+@misc{margaritis2025efficientdomainadaptationmultimodal,
+      title={Efficient Domain Adaptation of Multimodal Embeddings using Constrastive Learning}, 
+      author={Georgios Margaritis and Periklis Petridis and Dimitris J. Bertsimas},
+      year={2025},
+      eprint={2502.02048},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2502.02048}, 
+}
+```
